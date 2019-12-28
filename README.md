@@ -44,6 +44,7 @@ CHANNEL_TOKEN  : Messaging API設定>チャネルアクセストークン（ロ�
 を入力。
 
 ### Cloud Functionsの作成
+Cloud Functionsの[Console を使用したクイックスタート](https://cloud.google.com/functions/docs/quickstart-console?hl=ja)の **始める前に** を参照し、Cloud Functionsを作成する。
 
 ### Cloud Functionsへデプロイ
 
