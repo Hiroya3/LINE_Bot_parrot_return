@@ -22,6 +22,26 @@ LINE messagingAPIを利用するためにチャネルを作成したければな
 
 
 ### CHANNEL_SECRET＆CHANNEL_TOKENの入力
+下記のコマンドで本リポジトリをcloneしてください。
+
+```
+$ cd {cloneするディレクトリ}
+$ git clone https://github.com/Hiroya3/LINE_Bot_parrot_return.git
+```
+
+その後、server.goの
+
+```
+bot, err := linebot.New(
+  "CHANNEL_SECRET",
+  "CHANNEL_TOKEN",
+)
+```
+
+の `CHANNEL_SECRET` , `CHANNEL_TOKEN` の部分にそれぞれ
+CHANNEL_SECRET : チェネル基本設定>チャネルシークレット 
+CHANNEL_TOKEN  : Messaging API設定>チャネルアクセストークン（ロングターム）
+を入力。
 
 ### Cloud Functionsの作成
 
