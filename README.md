@@ -72,3 +72,7 @@ gcloud functions deploy Omubot --runtime go111 --trigger-http
 --trigger : トリガーの種類
 
 ### Webhookの設定
+cloud functionsに登録された関数をLINE Developer内の１で作成したチャネルに設定する。
+設定は[こちら](https://developers.line.biz/ja/docs/messaging-api/building-bot/)を参照。
+
+設定するURLはデプロイ時に表示される `httpsTrigger: url:` 
